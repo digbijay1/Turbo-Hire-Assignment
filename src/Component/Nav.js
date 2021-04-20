@@ -32,7 +32,7 @@ function Nav() {
           <li className="list">Form Selection</li>
         </ul>
       </div>
-      <hr />
+      <hr class="new2" />
 
       <div className="row" id="row1">
         <div className="col-6">
@@ -97,6 +97,10 @@ function Nav() {
           </Switch>
         </div>
       </div>
+ <hr class="new1"/>
+      <button type="button" class="btn btn-primary">
+        Next
+      </button>
     </Router>
   );
 }

@@ -1,63 +1,72 @@
 import React from "react";
 function DetailsCollection() {
   return (
-    <div>
-      <h3 className="preview">Preview</h3>
-      <p className="preview">
-        you will be able to customize the fields in the later stage
-      </p>
+    <>
+      <div className="header12">
+        <h4>Preview</h4>
+        <h6>You will be able to customize the field in the larger stage</h6>
+      </div>
 
-      <div className="form">
-        <div className="divColor">
-          <h5 className="digu">Name of the Enquiry Form</h5>
-          <p className="digu">lorem isajdahdgiuagdinibi</p>
-          <p className="digu">ldaosdihohoiduahdiuahdiu</p>
+      <div className="form12">
+        <div className="form123">
+          <h4>Name of the Enquiry Form</h4>
+          <p>lorem ipsum loream ispusm loream iospsumn</p>
+          <p>lorem ipsum loream ispusm loream iospsumn</p>
         </div>
+        <div className="text-container">
+          <form className="document-collection">
+            <label forName="name">1.Name*</label>
+            <br />
 
-        <div className="form1">
-          <form>
-            <label forName="name">1.First Name*</label>
-            <br />
             <input
               className="inputBox"
               type="text"
               name="name"
-              placeholder="Enter a valid salary in numbers  e.g 50,000/-"
+              placeholder="  Enter the name"
             />
-          </form>
-          <form>
-            <label forName="name">2.Email*</label>
             <br />
+            <br />
+
+            <label forName="name">2. Email* </label>
+            <br />
+
             <input
               className="inputBox"
               type="text"
               name="name"
-              placeholder="Example-userid@gmail.com"
+              placeholder="  Example:-userid@gmail.com"
             />
-          </form>
-          <form>
-            <label forName="name">3.Date Of Birth</label>
             <br />
+            <br />
+
+            <label forName="name">3. Date Of Birth </label>
+            <br />
+
             <input
-              className="inputBox"
+              className="inputBox191"
               type="date"
               name="name"
-              placeholder="Enter a valid salary in numbers  e.g 50,000/-"
+              placeholder="  "
             />
-          </form>
-          <form>
-            <label forName="name">.First Name*</label>
             <br />
+            <br />
+            <label forName="name">4. Contact no </label>
+            <br />
+
             <input
               className="inputBox"
               type="text"
               name="name"
-              placeholder="Enter a valid salary in numbers  e.g 50,000/-"
+              placeholder=" Enter your 10 digit contact No "
             />
+            <br />
+            <br />
+
+           
           </form>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

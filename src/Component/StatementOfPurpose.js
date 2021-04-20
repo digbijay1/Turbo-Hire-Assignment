@@ -31,7 +31,7 @@ function StatementOfPurpose() {
               <br />
               <br />
 
-              <label forName="name">2. 12th Marksheet* </label>
+              <label forName="name">2.  Tell me about the last time something significant didn't go according to plain at work.What was your role? what was the outcome?  </label>
               <br />
 
               <input
@@ -43,7 +43,7 @@ function StatementOfPurpose() {
               <br />
               <br />
 
-              <label forName="name">3. Graduation Marksheet* </label>
+              <label forName="name">3. What are the three things that are the most important to you in a job? </label>
               <br />
 
               <input

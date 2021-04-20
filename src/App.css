@@ -115,3 +115,23 @@ ul{
 .list{
  margin-left: -140px;
 }
+.inputBox191{
+  width: 150px;
+}
+select{
+  width: 400px;
+ border-color: black;
+}
+button{
+  margin-left: 940px;
+}
+.new1{
+ border-top: 2px solid gray;
+margin-top: 0px;
+ 
+}
+.new2{
+ border-top: 2px solid gray;
+margin-bottom: 18px;
+ 
+}
