@@ -1,0 +1,98 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+ .smallBox{
+   background-color: lightgrey;
+  width: 50px;
+  border: 1px solid gray;
+  padding: 30px;
+  overflow: hidden;
+  height: 30px;
+  margin: 20px;
+      border-radius: 4px;
+
+ }
+ .alignmentOf{
+   margin: 20px;
+ }
+ 
+ .NewForm{
+    border: 1px solid gray;
+    border-radius: 7px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 160px;
+    margin: 20px;
+    width: 350px;
+    height: 100px;
+    
+}
+.active{
+color: red;
+
+}
+.explore{
+  margin-left: 25px;
+}
+#digbijay{
+  background-color:whitesmoke;
+}
+.preview{
+  margin: 20px;
+}
+.form{
+    border: 0.5px solid gray;
+   width: 448px;
+   
+  margin: 20px;
+   margin-top: -20px;
+   background-color:whitesmoke;
+}
+input{
+  width: 200px;
+}
+.divColor{
+  background-color: rgb(128, 128, 236);
+
+    padding: 10px;
+    border-radius: 0.1rem;
+
+}
+.digu{
+  margin-left: 20px;
+  
+}
+.inputBox{
+  width: 400px;
+  border-radius: 0.3rem;
+  border-color: gray;
+  padding: 10px;
+  font-family: font awesome;
+}
+.form1{
+  padding: 30px;
+}
+.form12{
+  border: 1px solid gray;
+  border-radius:0.2rem;
+}
+.form123{
+  background-color: red ;
+  padding: 10px;
+}
+.text-container {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+.clearBtn{
+  padding: 0.3rem;
+  position: absolute;
+  
+}
+.document-collection{
+  padding: 20px;
+}
+ 
+ 
