@@ -6,15 +6,35 @@ import DetailsCollection from "./DetailsCollection";
 import InterviewAvailibility from "./InterviewAvailibility";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { NavLink } from "react-router-dom";
+import { BsCircle } from "react-icons/bs";
+
 
 function Nav() {
   return (
     <Router>
       <div>
-        <h1>hlow</h1>
+        <ul>
+          <span>
+            <BsCircle />
+          </span>
+          <li className="list">Form Selection</li>
+          <span>
+            <BsCircle />
+          </span>
+          <li className="list">Form Selection</li>
+          <span>
+            <BsCircle />
+          </span>
+          <li className="list">Form Selection</li>
+          <span>
+            <BsCircle />
+          </span>
+          <li className="list">Form Selection</li>
+        </ul>
       </div>
+      <hr />
 
-      <div className="row">
+      <div className="row" id="row1">
         <div className="col-6">
           <div className="NewForm">
             <div className="smallBox"></div>

@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 import { MdAttachment } from "react-icons/md";
-import "./DocumentCollection.css"
+import "./DocumentCollection.css";
 function DocumentCollection() {
   return (
     <>
@@ -18,15 +18,19 @@ function DocumentCollection() {
           <form className="document-collection">
             <label forName="name">1. 10th Marksheet* </label>
             <br />
+
             <span class="clearBtn">
               <MdAttachment />
             </span>
+
             <input
               className="inputBox"
               type="text"
               name="name"
-              placeholder="         Attach File up to 5 kb"
+              placeholder="     Attach File up to 5 kb"
             />
+            <br />
+            <br />
 
             <label forName="name">2. 12th Marksheet* </label>
             <br />
@@ -37,8 +41,10 @@ function DocumentCollection() {
               className="inputBox"
               type="text"
               name="name"
-              placeholder="         Attach File up to 5 kb"
+              placeholder="     Attach File up to 5 kb"
             />
+            <br />
+            <br />
 
             <label forName="name">3. Graduation Marksheet* </label>
             <br />
@@ -49,8 +55,11 @@ function DocumentCollection() {
               className="inputBox"
               type="text"
               name="name"
-              placeholder="         Attach File up to 5 kb"
+              placeholder="     Attach File up to 5 kb"
             />
+
+            <br />
+            <br />
 
             <label forName="name">4.Post Graduation Marksheet* </label>
             <br />
@@ -61,8 +70,11 @@ function DocumentCollection() {
               className="inputBox"
               type="text"
               name="name"
-              placeholder="         Attach File up to 5 kb"
+              placeholder="     Attach File up to 5 kb"
             />
+
+            <br />
+            <br />
 
             <label forName="name">5. Offer Letters* </label>
             <br />
@@ -73,8 +85,10 @@ function DocumentCollection() {
               className="inputBox"
               type="text"
               name="name"
-              placeholder="         Attach File up to 5 kb"
+              placeholder="     Attach File up to 5 kb"
             />
+            <br />
+            <br />
 
             <label forName="name">6. Salary Slips* </label>
             <br />
@@ -85,8 +99,10 @@ function DocumentCollection() {
               className="inputBox"
               type="text"
               name="name"
-              placeholder="         Attach File up to 5 kb"
+              placeholder="     Attach File up to 5 kb"
             />
+            <br />
+            <br />
 
             <label forName="name">7. Bank Statement </label>
             <br />
@@ -97,10 +113,12 @@ function DocumentCollection() {
               className="inputBox"
               type="text"
               name="name"
-              placeholder="         Attach File up to 5 kb"
+              placeholder="     Attach File up to 5 kb"
             />
+            <br />
+            <br />
 
-            <label forName="name">8. 10th Marksheet* </label>
+            <label forName="name">8. Increment Letter(if any) </label>
             <br />
             <span class="clearBtn">
               <MdAttachment />
@@ -111,8 +129,10 @@ function DocumentCollection() {
               name="name"
               placeholder="         Attach File up to 5 kb"
             />
+            <br />
+            <br />
 
-            <label forName="name">1. 10th Marksheet* </label>
+            <label forName="name">9. Others(if any) </label>
             <br />
             <span class="clearBtn">
               <MdAttachment />
@@ -123,7 +143,6 @@ function DocumentCollection() {
               name="name"
               placeholder="         Attach File up to 5 kb"
             />
-
           </form>
         </div>
       </div>
@@ -131,4 +150,4 @@ function DocumentCollection() {
   );
 }
 
-export default DocumentCollection
+export default DocumentCollection;

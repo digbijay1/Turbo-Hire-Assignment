@@ -76,15 +76,17 @@ input{
 .form12{
   border: 1px solid gray;
   border-radius:0.2rem;
+  margin: 20px;
 }
 .form123{
-  background-color: red ;
-  padding: 10px;
+  background-color:rgb(134, 134, 238) ;
+  padding: 20px;
 }
 .text-container {
   display: inline-block;
   position: relative;
   overflow: hidden;
+  padding: 10px;
 }
 .clearBtn{
   padding: 0.3rem;
@@ -93,6 +95,23 @@ input{
 }
 .document-collection{
   padding: 20px;
+  
 }
- 
- 
+.inputBox123{
+  width: 30px;
+}
+.header12{
+  padding: 15px;
+}
+ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin: 20px 20px;
+}
+#row1{
+  margin-top: -17px;
+}
+.list{
+ margin-left: -140px;
+}
